@@ -1,0 +1,14 @@
+# Generated for Quantanumeric trigger volumes
+# version_catalog_mode=basic
+
+[versions]
+hytale = "0.5.6"
+hytaleTools = "1.+"
+foojayResolver = "1.0.0"
+kotlin = "2.3.20"
+
+[plugins]
+hytaleTools = { id = "com.azuredoom.hytale-tools", version.ref = "hytaleTools" }
+kotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+
+# Basic mode keeps most dependency declarations inline in the generated Gradle files.

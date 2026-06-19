@@ -1,0 +1,25 @@
+{
+    "Group": "com.beatrix",
+    "Name": "quanum",
+    "Version": "1.0.0",
+    "Description": "trigger volume extensions for the quantanumeric adventure map",
+    "Authors": [
+        {
+            "Name": "Beatrix"
+        }
+    ],
+    "Website": "",
+    "ServerVersion": ">=0.5.6 <0.6.0",
+    "Dependencies": {
+        "Hytale:AssetModule": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "Main": "com.beatrix.quanum.Main",
+    "IncludesAssetPack": true,
+    "UpdateChecker": {
+        "CurseForge": ""
+    }
+}
